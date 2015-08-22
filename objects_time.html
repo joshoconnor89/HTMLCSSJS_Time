@@ -1,0 +1,32 @@
+<script>
+var Marc = new Date();
+//if we set time, it doesnt work
+//Marc.setHours(23)
+Marc.getHours();
+//console.log(Marc.getHours());
+var hour = Marc.getHours()
+var minute = Marc.getMinutes()
+console.log(hour)
+console.log(minute)
+
+var timeminute = minute/60;
+var currenttime = hour + timeminute;
+var start = 17.5;
+var finish = 21.5;
+
+
+if (currenttime > start && currenttime < finish) {
+	alert("Its time for class")
+}
+
+//tell us it is time for class if it is between 5.30 and 9.30
+
+
+	
+
+
+
+</script>
+
+<body>
+<p> <b id='stuff'>dude</b></p>
